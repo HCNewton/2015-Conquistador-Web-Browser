@@ -48,9 +48,9 @@ public class ToolBar extends Browser {
 		btnGo.setFont(new Font("TimesRoman", Font.BOLD, 20));
 		btnHome.setFont(new Font("TimesRoman", Font.BOLD, 20));
 
-		BrowserPane.actionListenerCalls();										//actionListeners method is called and added
-		BrowserPane.moreActionListenerCalls();									//moreActionListeners method is called and added
-		toolTipText();															//buttons are given their own labels
+		BrowserPane.actionListenerCalls();						//actionListeners method is called and added
+		BrowserPane.moreActionListenerCalls();						//moreActionListeners method is called and added
+		toolTipText();									//buttons are given their own labels
 	}
 
 	static void addComponentsToMoreFrame(Container more)
